@@ -48,13 +48,15 @@ Hands-on assignments and a final project reinforce conceptual understanding thro
 ## Weekly Schedule
 
 ### Week 1 — Introduction to Big Data & Distributed Systems
-- What makes data “big”
-- The 5 V’s of big data
+- What makes data "big"
+- The 5 V's of big data
 - Data lifecycles and real-world examples
 - Limits of single-machine analytics
 - Shared-nothing architectures
 - Fault tolerance as a design constraint
 - Intuitive overview of the CAP theorem
+
+**References:**  Broad view in class, but may be helpful to go over *Mining of Massive Datasets* (Leskovec et al.) — Chapter 1; *Designing Data-Intensive Applications* (Kleppmann) — Chapter 1;
 
 ---
 
@@ -67,6 +69,8 @@ Hands-on assignments and a final project reinforce conceptual understanding thro
 - Object storage systems (e.g., S3) and analytics storage models
 - Why databases are not used for large-scale analytics workloads
 
+**References:** *Hadoop: The Definitive Guide* (White) — Chapter 3 (HDFS); [The Google File System](https://research.google/pubs/the-google-file-system/) (Ghemawat et al., 2003); [Amazon S3 Documentation](https://docs.aws.amazon.com/s3/) or [MinIO Documentation](https://min.io/docs/minio/linux/index.html); *Designing Data-Intensive Applications* (Kleppmann) — Chapter 2 (relational vs. analytics storage)
+
 ---
 
 ### Week 3 — Batch Processing & MapReduce
@@ -76,6 +80,8 @@ Hands-on assignments and a final project reinforce conceptual understanding thro
 - Strengths and weaknesses of MapReduce
 - Why MapReduce led to Apache Spark
 
+**References:** *Hadoop: The Definitive Guide* (White) — Chapter 2; [MapReduce: Simplified Data Processing on Large Clusters](https://research.google/pubs/mapreduce-simplified-data-processing-on-large-clusters/) (Dean & Ghemawat, 2004)
+
 ---
 
 ### Week 4 — Apache Spark and Distributed Analytics
@@ -83,6 +89,8 @@ Hands-on assignments and a final project reinforce conceptual understanding thro
 - RDDs vs DataFrames
 - Lazy evaluation
 - Caching and performance optimization
+
+**References:** *Learning Spark* (Damji et al.) — Chapters 2-3; [Apache Spark Documentation](https://spark.apache.org/docs/latest/)
 
 ---
 
@@ -93,6 +101,8 @@ Hands-on assignments and a final project reinforce conceptual understanding thro
 - Structured Streaming concepts
 - Real-time analytics use cases
 
+**References:** *Learning Spark* (Damji et al.) — Chapter 8 (Structured Streaming); [Structured Streaming Programming Guide](https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html)
+
 ---
 
 ### Week 6 — Graph Analytics Foundations
@@ -101,6 +111,8 @@ Hands-on assignments and a final project reinforce conceptual understanding thro
 - Centrality, connectivity, and communities
 - Graph analytics frameworks
 - Introduction of the Pittsburgh bike rides dataset and assignment
+
+**References:** *Mining of Massive Datasets* (Leskovec et al.) — Chapter 10 (Mining Social-Network Graphs); [GraphFrames User Guide](https://graphframes.github.io/graphframes/docs/_site/user-guide.html)
 
 ---
 
@@ -114,6 +126,8 @@ Hands-on assignments and a final project reinforce conceptual understanding thro
 - Choosing storage systems for different analytics workloads
 - NoSQL systems as operational and serving layers alongside analytics pipelines
 
+**References:** *Designing Data-Intensive Applications* (Kleppmann) — Chapters 2-3; *NoSQL Distilled* (Sadalage & Fowler)
+
 ---
 
 ### Week 8 — Distributed Machine Learning
@@ -122,6 +136,8 @@ Hands-on assignments and a final project reinforce conceptual understanding thro
 - Data parallelism
 - Overview of Spark MLlib
 - Predictive and clustering models on large datasets
+
+**References:** *Learning Spark* (Damji et al.) — Chapter 10 (Machine Learning with MLlib); *Mining of Massive Datasets* (Leskovec et al.) — Chapters 6-7
 
 ---
 
@@ -134,6 +150,8 @@ Hands-on assignments and a final project reinforce conceptual understanding thro
 - Elasticity and autoscaling
 - Cost-performance trade-offs (throughput vs. dollar cost)
 
+**References:** *Designing Data-Intensive Applications* (Kleppmann) — Chapter 6 (Partitioning); [The Tail at Scale](https://research.google/pubs/the-tail-at-scale/) (Dean & Barroso, 2013)
+
 ---
 
 ### Week 10 — Data Pipelines for Large Language Models
@@ -145,6 +163,7 @@ Hands-on assignments and a final project reinforce conceptual understanding thro
 - Streaming data loaders and I/O bottlenecks
 - Why LLM training data is stored in files rather than databases
 
+**References:** [HuggingFace Datasets Documentation](https://huggingface.co/docs/datasets/); [PyTorch Data Loading Tutorial](https://pytorch.org/tutorials/beginner/data_loading_tutorial.html); [nanochat](https://github.com/karpathy/nanochat) (uses FineWeb-Edu-100B dataset); [FineWeb datasets](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu)
 
 ---
 
@@ -154,6 +173,8 @@ Hands-on assignments and a final project reinforce conceptual understanding thro
 - Synchronization points
 - Checkpointing and failure recovery
 
+**References:** [PyTorch Distributed Training Guide](https://pytorch.org/tutorials/beginner/dist_overview.html); [Efficient Large-Scale Language Model Training](https://arxiv.org/abs/2104.04473) (Narayanan et al., 2021)
+
 ---
 
 ### Week 12 — Midterm Exam and Scaling Experiments
@@ -162,12 +183,16 @@ Hands-on assignments and a final project reinforce conceptual understanding thro
 - Throughput vs cost
 - Diminishing returns in large-scale systems
 
+**References:** Review materials from Weeks 1-10
+
 ---
 
 ### Week 13 — Advanced Topics and Project Work
 - Scaling behavior of large models
 - System bottlenecks and optimization
 - Project work and discussion
+
+**References:** Project-specific materials and selected research papers
 
 ---
 
