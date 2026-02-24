@@ -101,7 +101,7 @@ Hands-on assignments and a final project reinforce conceptual understanding thro
 - Structured Streaming concepts
 - Real-time analytics use cases
 
-**References:** *Learning Spark* (Damji et al.) — Chapter 8 (Structured Streaming); [Structured Streaming Programming Guide](https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html)
+**References:** *Learning Spark* (Damji et al.) — Chapter 8 (Structured Streaming); [Structured Streaming Programming Guide](https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html); [MMDS — Chapter 4: Mining Data Streams](http://infolab.stanford.edu/~ullman/mmds/ch4.pdf)
 
 ---
 
