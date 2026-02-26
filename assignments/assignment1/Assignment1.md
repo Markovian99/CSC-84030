@@ -67,7 +67,7 @@ This is standard practice for large-scale analytics workflows.
 
 ### Option A: Local Docker Environment
 
-Use the course repository to run Docker Compose for Hadoop + Spark on you computer.
+Use the course repository to run Docker Compose for Hadoop + Spark on your computer.
 
 ### Option B: Single Cloud VM (AWS / GCP / Azure)
 
@@ -343,3 +343,4 @@ may be reviewed for academic integrity.
 - Sort outputs before selecting “top 20”
 - Run performance tests multiple times and report the median
 - Keep detailed notes of commands as you work — this is part of the grade
+- Use commands like `hdfs dfs -rm -r /csc84030/a1/output/mapreduce_sample` just like unix commands, but for dfs 

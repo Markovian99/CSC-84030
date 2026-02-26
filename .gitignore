@@ -7,6 +7,7 @@ other/
 .env
 notebooks/.ipynb_checkpoints/
 *.log
+*.pdf
 
 # Docker volumes (these are managed by Docker)
 hadoop_namenode/

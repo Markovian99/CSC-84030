@@ -100,8 +100,11 @@ services:
       - datanode3
 
   # Hadoop NodeManager (YARN)
+  # Custom build adds Python 3 so Hadoop Streaming jobs can use mapper.py / reducer.py
   nodemanager:
-    image: bde2020/hadoop-nodemanager:2.0.0-hadoop3.2.1-java8
+    build:
+      context: .
+      dockerfile: Dockerfile.nodemanager
     container_name: nodemanager
     restart: always
     ports:

@@ -1,8 +1,8 @@
 # Jupyter Notebooks Directory
 
-This directory is mounted into the Jupyter container for persistent notebook storage.
+This directory is mounted into the Jupyter container for persistent notebook storage and also contains notebooks discussed in class.
 
-## Usage
+## Usage when creating spark notebooks
 
 1. Start the Docker environment: `docker-compose up -d`
 2. Get the Jupyter token: `docker logs jupyter-pyspark 2>&1 | grep "token="`
