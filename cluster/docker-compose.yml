@@ -204,7 +204,7 @@ services:
 
   # Jupyter Notebook with PySpark
   jupyter:
-    image: jupyter/pyspark-notebook:latest
+    image: jupyter/pyspark-notebook:spark-3.3.0
     container_name: jupyter-pyspark
     restart: always
     ports:

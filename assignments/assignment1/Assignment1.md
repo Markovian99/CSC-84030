@@ -240,12 +240,23 @@ Repeat the same aggregations in **Spark**, reading from HDFS:
 1. Trips per start station (top 20)
 2. Trips per hour (0–23)
 
+### Environment
+
+| | Value |
+|---|---|
+| Jupyter | http://localhost:8888 — token: `docker logs jupyter-pyspark 2>&1 \| grep "token="` |
+| Spark master URL | `spark://spark-master:7077` |
+| spark-submit | exec into the `spark-master` container |
+| Notebooks dir | mounted at `/notebooks` inside Spark/Jupyter containers |
+
+If cluster-mode Spark or HDFS access doesn't work on your machine, fall back to `local[*]` mode and note it in your report.
+
 ### Requirements
 
 - Use **Spark DataFrames** (preferred) or RDDs
 - Submit either:
-- a PySpark script (`spark-submit`), or
-- a notebook with executed cells
+  - a PySpark script (`spark-submit`), or
+  - a notebook with executed cells
 
 ### Performance timing
 
