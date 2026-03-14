@@ -112,7 +112,7 @@ Hands-on assignments and a final project reinforce conceptual understanding thro
 - Graph analytics frameworks
 - Introduction of the Pittsburgh bike rides dataset and assignment
 
-**References:** *Mining of Massive Datasets* (Leskovec et al.) — Chapter 10 (Mining Social-Network Graphs); [GraphFrames User Guide](https://graphframes.github.io/graphframes/docs/_site/user-guide.html)
+**References:** *Mining of Massive Datasets* (Leskovec et al.) — Chapter 10 (Mining Social-Network Graphs); [GraphFrames User Guide](https://graphframes.io/01-about/01-index.html)
 
 ---
 
