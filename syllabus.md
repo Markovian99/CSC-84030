@@ -137,7 +137,7 @@ Hands-on assignments and a final project reinforce conceptual understanding thro
 - Overview of Spark MLlib
 - Predictive and clustering models on large datasets
 
-**References:** *Learning Spark* (Damji et al.) — Chapter 10 (Machine Learning with MLlib); *Mining of Massive Datasets* (Leskovec et al.) — Chapters 6-7
+**References:** *Learning Spark* (Damji et al.) — Chapter 10 (Machine Learning with MLlib); *Mining of Massive Datasets* (Leskovec et al.) — Chapters 7 + 12
 
 ---
 
@@ -154,7 +154,7 @@ Hands-on assignments and a final project reinforce conceptual understanding thro
 
 ---
 
-### Week 10 — Data Pipelines for Large Language Models
+### Week 10 — Storage and Input Pipelines for LLM Training
 - Large language models as data-intensive systems
 - Object storage and data lakes for training data
 - Storage trade-offs: sequential file-based access vs indexed and key-addressable data layouts
